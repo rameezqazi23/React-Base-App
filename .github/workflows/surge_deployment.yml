@@ -38,7 +38,7 @@ jobs:
       run: npm install -g surge
       
     - name: Deploy to Surge
-      run:  surge ./ project01-reactapp.surge.su ${{secrets.SURGE_TOKEN}}
+      run:  surge ./ project01-reactapp.surge.sh ${{secrets.SURGE_TOKEN}}
     
 
     # Runs a single command using the runners shell
