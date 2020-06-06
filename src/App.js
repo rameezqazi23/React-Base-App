@@ -8,7 +8,7 @@ function App(props) {
               Hierical element
 
             </div>
-            Hello from App.JS & {[props.name]}
+            Hello from App.JS and {props.name}
           </div>
 }
 
