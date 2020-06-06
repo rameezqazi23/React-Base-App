@@ -2,14 +2,27 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App(props) {
-  return <div>
-            <div>
-              Hierarchical element
-
-            </div>
-            Hello from App.JS and {props.name}
-          </div>
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+          <br/>
+          Created by Rameez Qazi
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
 }
 
 export default App;
