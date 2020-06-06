@@ -5,7 +5,7 @@ import './App.css';
 function App(props) {
   return <div>
             <div>
-              Hierical element
+              Hierarchical element
 
             </div>
             Hello from App.JS and {props.name}
